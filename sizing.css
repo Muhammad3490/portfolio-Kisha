@@ -1,0 +1,499 @@
+@media(max-width:1100px) {
+    
+    .list {
+        font-size: 22px;
+    }
+    .main-img{
+        width: 375px;
+        height: 525px;
+    }
+    .display-box{
+        width: 280px;
+        height: 400px;
+        margin: 10px;
+    }
+} 
+
+@media (max-width:850px) {
+
+    .h2{
+    font-size: 16px;
+}
+    .list i{
+    font-size: 20px;
+}
+.list {
+    padding: 8px;
+    margin: 10px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.main-img{
+    width: 250px;
+    height: 380px;
+    margin-top: 25px;
+    
+    
+}
+.sub-box{
+    max-width: 100vw;
+    width: 100vw;
+    max-height: 350px;
+    min-height: 500px;
+    border: 1px solid black;
+    padding-top: 10px;
+}
+
+.main-text-container1,.main-text-container2{
+  width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 30px;
+   height: 300px;
+   font-family: 'Hind';
+   font-weight: bolder;
+
+}
+.main-text-container1{
+    padding-left: 10px;
+    margin-left: 15px;
+}
+.main-text-container2{
+    padding-left: 10px;
+    margin-left: 15px;
+}
+.main-para{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.main-text-container2{
+   place-self: flex-end;
+   padding: 8px;
+   padding: 10px;
+   color:purple;
+}
+.medium-button{
+    width: 115px;
+    height: 36px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 8px;
+    cursor: pointer;
+}
+.medium-button:hover{
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    scale: (1.05);
+    box-shadow: 2px 2px 0px black;
+    transform: 0.5s ease-in;
+}
+@keyframes text-float {
+    0%, 100% {
+        transform: translateY(0);
+        text-shadow: 0px 0px 0px;
+    }
+    50% {
+        transform: translateY(-8px); /* Adjust the value as needed */
+        text-shadow: -2px -2px 0px rgb(15, 10, 160),2px 2px 0px lime;
+    }
+}
+.project-container{
+    display: grid;
+    padding: 8px;
+    place-items: center;
+    gap: 8px;
+}
+.project-heading{
+    font-size: 20px;
+    font-family: 'Hind';
+    color: aliceblue;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.small-line{
+    width: 400px;
+    height: 1px;
+    background-color: aliceblue;
+    margin: 12px;
+}
+.display-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    flex-wrap: wrap;
+}
+.display-box{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 200px;
+    height: 280px;
+    margin: 15px;
+}
+ .display-img{
+    width:185px;
+    height: 165px;
+    margin: 3px;
+    border: 1px solid black;
+}
+.small-button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 6px;
+    cursor: pointer;
+}
+h4{
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 6px;
+}
+.neu{
+    border-radius: 18px;
+box-shadow:  10px 10px 30px rgb(31, 30, 30), -6px -6px 20px rgb(58, 55, 55);
+}
+.glass{
+    border-radius: 20px;
+}
+.skill-heading{
+    font-size: 16px;
+    font-family: 'Hind';
+    font-weight: 400;
+}
+.skill-box{
+    width: 155px;
+    height: 150px;
+    margin: 8px;
+}
+.start-button{
+  
+    width: 95px;
+    height: 25px;
+    border-radius: 3.5px;
+    font-size: 11px;
+    margin: 7px;
+    margin-right: 15px;
+}
+.grid p{
+    font-size: 20px;
+    margin-left: 30px;
+    padding-left: 35px;
+}
+.footer-line{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
+.icon-box{
+    margin-left: 30px;
+    padding: 20px;
+}
+footer{
+  min-width: 100vw;
+  max-width: 100vw;
+  height: 23vh;
+}
+
+.para-container{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 16px;
+    margin: 18px;
+    font-size: 16px;
+}
+.main-text-container3 .main-para{
+    font-size: 12px;
+    font-weight: 400;
+}
+.main-text-container3{
+    width: 85vw;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+}
+
+
+/* Style for gallery item images */
+.gallery-item img {
+    min-width: 230px;
+    max-width: 100%;
+    height: 320px;
+    border: 1px solid #ddd; /* Add a border for better visibility */
+}
+.gallery-item #small-img{
+    height: 380px;
+    width: 560px;
+}
+.small-img{
+    height: 300px;
+}
+
+/* Style for gallery item descriptions (optional) */
+.gallery-item p {
+    margin-top: 8px;
+    font-size: 12px;
+}
+}
+
+@media (max-width:400px) {
+
+    .h2{
+    font-size: 14px;
+}
+    .list i{
+    font-size: 16px;
+}
+.list {
+    padding: 0px;
+    margin: 4px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.main-img{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
+.sub-box{
+    max-width: 100vw;
+    width: 100vw;
+    max-height: 300px;
+    min-height: 300px;
+    border: 1px solid black;
+    padding-top: 15px;
+}
+
+.main-text-container1,.main-text-container2{
+  width: 170px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 30px;
+   height: 300px;
+   font-family: 'Hind';
+   font-weight: bolder;
+
+}
+.main-text-container1{
+    padding-left: 8px;
+    margin-left: 15px;
+}
+.main-text-container2{
+    padding-left: 5px;
+    margin-left: 5px;
+}
+.main-para{
+    font-size: 10px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.main-text-container2{
+   place-self: flex-end;
+   padding: 8px;
+   padding: 10px;
+   color:purple;
+}
+.medium-button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 11px;
+    margin: 8px;
+    cursor: pointer;
+}
+.medium-button:hover{
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    scale: (1.05);
+    box-shadow: 2px 2px 0px black;
+    transform: 0.5s ease-in;
+}
+@keyframes text-float {
+    0%, 100% {
+        transform: translateY(0);
+        text-shadow: 0px 0px 0px;
+    }
+    50% {
+        transform: translateY(-8px); /* Adjust the value as needed */
+        text-shadow: -2px -2px 0px rgb(15, 10, 160),2px 2px 0px lime;
+    }
+}
+.project-container{
+    display: grid;
+    padding: 8px;
+    place-items: center;
+    gap: 8px;
+}
+.project-heading{
+    font-size: 16px;
+    font-family: 'Hind';
+    color: aliceblue;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.small-line{
+    width: 275px;
+    height: 1px;
+    background-color: aliceblue;
+    margin: 8px;
+}
+.display-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    flex-wrap: wrap;
+}
+.display-box{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 220px;
+    height: 270px;
+    margin: 10px;
+}
+ .display-img{
+    width:185px;
+    height: 165px;
+    margin: 3px;
+    border: 1px solid black;
+}
+.small-button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 6px;
+    cursor: pointer;
+}
+h4{
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 6px;
+}
+.neu{
+    border-radius: 18px;
+    background: linear-gradient(145deg,  rgb(31, 30, 30), rgb(58, 55, 55));
+box-shadow:  10px 10px 30px rgb(31, 30, 30), -6px -6px 20px rgb(58, 55, 55);
+}
+.glass{
+    background-color: rgba(240, 248, 255, 0.507);
+    backdrop-filter: blur(5px);
+    border-radius: 18px;
+    border: 1px solid rgba(240, 248, 255, 0.747);
+}
+.skill-heading{
+    font-size: 14px;
+    font-family: 'Hind';
+    font-weight: 300;
+}
+.skill-box{
+    width: 140px;
+    height: 145px;
+    margin: 5px;
+}
+.start-button{
+  
+    width: 95px;
+    height: 25px;
+    border-radius: 3.5px;
+    font-size: 11px;
+    margin: 7px;
+    margin-right: 15px;
+}
+.grid p{
+    font-size: 20px;
+    margin-left: 30px;
+    padding-left: 35px;
+}
+.footer-line{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
+.icon-box{
+    margin-left: 30px;
+    padding: 20px;
+}
+footer{
+  min-width: 100vw;
+  max-width: 100vw;
+  height: 25vh;
+}
+.para-container{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 16px;
+    margin: 15px;
+    font-size: 16px;
+}
+.main-text-container3 .main-para{
+    font-size: 12px;
+    font-weight: 400;
+}
+.main-text-container3{
+    width: 85vw;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust the gap as needed */
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Style for each gallery item */
+.gallery-item {
+    flex: 2; /* Distribute items equally in a row */
+    max-width: 340px; /* Adjust the maximum width as needed */
+    text-align: center;
+    margin: 10px;
+}
+
+/* Style for gallery item images */
+.gallery-item img {
+    min-width: 230px;
+    max-width: 100%;
+    height: 320px;
+    border: 1px solid #ddd; /* Add a border for better visibility */
+}
+.gallery-item #small-img{
+    height: 350px;
+    width: 550px;
+}
+.small-img{
+    height: 300px;
+}
+
+/* Style for gallery item descriptions (optional) */
+.gallery-item p {
+    margin-top: 8px;
+    font-size: 12px;
+}
+}
+
+
+
+
+
+
